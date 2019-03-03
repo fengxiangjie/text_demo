@@ -13,7 +13,12 @@ public class Singleton {
         return singleton;
     }
 
-
+    /*//饿汉式
+    private Singleton(){};
+    private static Singleton singleton = new Singleton();
+    public static Singleton getSingleton(){
+        return singleton;
+    }*/
 
 
 
