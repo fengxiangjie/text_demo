@@ -14,15 +14,7 @@ public class Singleton {
     }
 
 
-   /* //懒汉式
-    private Singleton(){};
-    private static Singleton singleton = null;
-    public static Singleton getSingleton(){
-        if(singleton==null){
-            singleton = new Singleton();
-        }
-        return singleton;
-    }*/
+
 
 
 
